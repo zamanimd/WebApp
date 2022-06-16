@@ -1,0 +1,62 @@
+﻿@page
+@model Weblog.Pages.CreateBlogModel
+@{
+    ViewData["Title"] = "Create Blog";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div calss="row">
+            <h1>@ViewData["Title"]</h1>
+            <form method="post">
+                <div class="mb-3">
+                    @{
+                        if (@Model.SuccessMessage != null)
+                        {
+                            <div class="alert alert-success">
+                                @Model.SuccessMessage
+                            </div>
+                        }
+                        if (@Model.ErrorMessage != null)
+                        {
+                            <div class="alert alert-danger">
+                                @Model.ErrorMessage
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.Title"></label>
+                    <input type="text" class="form-control" asp-for="command.Title">
+                    <span class="text-danger" asp-validation-for="command.Title"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.Picture"></label>
+                    <input type="text" class="form-control" asp-for="command.Picture">
+                    <span class="text-danger" asp-validation-for="command.Picture"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.PictureTitle"></label>
+                    <input type="text" class="form-control" asp-for="command.PictureTitle">
+                    <span class="text-danger" asp-validation-for="command.PictureTitle"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.PictureAlt"></label>
+                    <input type="text" class="form-control" asp-for="command.PictureAlt">
+                    <span class="text-danger" asp-validation-for="command.PictureAlt"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.Description"></label>
+                    <textarea type="text" class="form-control" asp-for="command.Description"></textarea>
+                    <span class="text-danger" asp-validation-for="command.Description"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="command.Content"></label>
+                    <textarea type="text" class="form-control" asp-for="command.Content"></textarea>
+                    <span class="text-danger" asp-validation-for="command.Content"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

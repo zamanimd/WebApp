@@ -1,0 +1,53 @@
+﻿@*Get Id with query string*@
+@*@page*@
+
+@*Get Id from URL*@
+@page "{id:int}"
+
+@model Weblog.Pages.BlogDetailModel
+@{
+    ViewData["Title"] = "Blog Detail";
+}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div calss="row">
+            @{
+                if (@Model.blog != null)
+                {
+                        <h1>@Model.blog.Title</h1>
+                        <p>@Model.blog.CreateDate</p>
+                        <form>
+                            <div class="mb-3">
+                                <img src="~/img/@{@Model.blog.Picture}.png" alt="@Model.blog.PictureAlt" />
+                            </div>
+                            <div class="mb-3">
+                                <h1>@Model.blog.Title</h1>
+                            </div>
+                            <div class="mb-3">
+                                <p>@Model.blog.Description</p>
+                            </div>
+                            <div class="mb-3">
+                                <p>@Model.blog.Content</p>
+                            </div>
+                        </form>
+                }
+                else
+                {
+                        <form>
+                            <div class="mb-3">
+                                @{
+                                if (@Model.ErrorMessage != null)
+                                {
+                                            <div class="alert alert-danger">
+                                                @Model.ErrorMessage
+                                            </div>
+                                }
+                                }
+                            </div>
+                        </form>
+                }
+            }
+        </div>
+    </div>
+</div>
