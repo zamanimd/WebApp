@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Weblog
 build_property.RootNamespace = Weblog
-build_property.ProjectDir = D:\GitHub\WebApp\Weblog\
+build_property.ProjectDir = D:\Github\WebApp\Weblog\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GitHub\WebApp\Weblog
+build_property.MSBuildProjectDirectory = D:\Github\WebApp\Weblog
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GitHub/WebApp/Weblog/Pages/BlogDetail.cshtml]
+[D:/Github/WebApp/Weblog/Pages/BlogDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ0RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/Contact.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/CreateBlog.cshtml]
+[D:/Github/WebApp/Weblog/Pages/CreateBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/Error.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/Index.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/_ViewImports.cshtml]
+[D:/Github/WebApp/Weblog/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/_ViewStart.cshtml]
+[D:/Github/WebApp/Weblog/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/WebApp/Weblog/Pages/Shared/_Layout.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gmkbgzady2
 
-[D:/GitHub/WebApp/Weblog/Pages/Shared/_Layout_Backup.cshtml]
+[D:/Github/WebApp/Weblog/Pages/Shared/_Layout_Backup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRfQmFja3VwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-sab4i2ndxo

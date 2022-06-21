@@ -1864,19 +1864,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammad\\.nuget\\packages\\": {}
+    "C:\\Users\\CIRUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\WebApp\\Weblog\\Weblog.csproj",
+      "projectUniqueName": "D:\\Github\\WebApp\\Weblog\\Weblog.csproj",
       "projectName": "Weblog",
-      "projectPath": "D:\\GitHub\\WebApp\\Weblog\\Weblog.csproj",
-      "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\WebApp\\Weblog\\obj\\",
+      "projectPath": "D:\\Github\\WebApp\\Weblog\\Weblog.csproj",
+      "packagesPath": "C:\\Users\\CIRUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\WebApp\\Weblog\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CIRUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
