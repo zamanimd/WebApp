@@ -189,3 +189,8 @@ D:\Github-Aryana\WebApp\Weblog\obj\Debug\net6.0\refint\Weblog.dll
 D:\Github-Aryana\WebApp\Weblog\obj\Debug\net6.0\Weblog.pdb
 D:\Github-Aryana\WebApp\Weblog\obj\Debug\net6.0\Weblog.genruntimeconfig.cache
 D:\Github-Aryana\WebApp\Weblog\obj\Debug\net6.0\ref\Weblog.dll
+D:\Github\WebApp\Weblog\obj\Debug\net6.0\staticwebassets\msbuild.Weblog.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Github\WebApp\Weblog\obj\Debug\net6.0\staticwebassets\msbuild.build.Weblog.props
+D:\Github\WebApp\Weblog\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Weblog.props
+D:\Github\WebApp\Weblog\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Weblog.props
+D:\Github\WebApp\Weblog\obj\Debug\net6.0\staticwebassets.pack.json
